@@ -23,6 +23,17 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 ********************
 
 
+# Fetching and running the server setup file
+
+wget https://github.com/martiandeath/Minecraft-Server-Setup
+
+./Minecraft_server_setup.sh
+
+
+********************
+********************
+
+
 # Firewall Settings
 
 sudo firewall-cmd --permanent --zone=public --add-port=25565/tcp
