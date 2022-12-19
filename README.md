@@ -17,7 +17,7 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 <public ip>:25565
 ```
 
-## Running the Server (After First-Time Setup
+## Running the Server (After First-Time Setup)
 
 ```
 ./run.sh
@@ -34,6 +34,7 @@ chmod 777 Minecraft-Server-Setup.sh
 ```shell
 ./Minecraft-Server-Setup.sh
 ```
+
 ## Setting Minecraft Game Rules (In Minecraft Server Console)
 
 ```
