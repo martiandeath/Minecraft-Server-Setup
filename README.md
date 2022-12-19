@@ -1,23 +1,23 @@
 # How to Setup a Minecraft Forge Server in an Oracle Cloud Server
 
 
-# Tutorial Link
+## Tutorial Link
 https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud
 
 
-# SSH
+## SSH
 
 ```shell
 ssh opc@<public ip> -i ~/.ssh/<key file>
 ```
 
-# Server Address
+## Server Address
 
 ```
 <public ip>:25565
 ```
 
-# Fetching and running the server setup file
+## Fetching and running the server setup file
 
 ```shell
 wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
@@ -30,11 +30,11 @@ chmod 777 Minecraft-Server-Setup.sh
 ```
 
 *****
-## Everything Below is Only for When Installing Manually Rather Than Using the Script
+# Everything Below is Only for When Installing Manually Rather Than Using the Script
 *****
 
 
-# Firewall Settings
+## Firewall Settings
 
 ```shell
 sudo firewall-cmd --permanent --zone=public --add-port=25565/tcp
@@ -46,7 +46,7 @@ sudo firewall-cmd --permanent --zone=public --add-port=25565/udp
 sudo firewall-cmd --reload
 ```
 
-# Update the System
+## Update the System
 
 ```shell
 sudo yum -y update && sudo yum upgrade
@@ -55,7 +55,7 @@ sudo yum -y update && sudo yum upgrade
 sudo yum -y install jdk-19
 ```
 
-# Install Forge Server
+## Install Forge Server
 
 ```shell
 wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.3-44.0.30/forge-1.19.3-44.0.30-installer.jar
@@ -67,7 +67,7 @@ java -jar forge-1.19.3-44.0.30-installer.jar --install
 rm forge-1.19.3-44.0.30-installer.jar forge-1.19.3-44.0.30-installer.jar.log
 ```
 
-# Initial Setup
+## Initial Setup
 
 ```shell
 ./run.sh
@@ -79,7 +79,7 @@ echo "eula=true" > eula.txt
 echo " -Xmx20G" > user_jvm_args.txt
 ```
 
-# Set Server Properties
+## Set Server Properties
 
 ```shell
 echo "allow-flight=false
@@ -139,13 +139,13 @@ view-distance=10
 white-list=false
 ```
 
-# Running the Server
+## Running the Server
 
 ```shell
 ./run.sh
 ```
 
-# Setting Minecraft Game Rules (In Minecraft Server Console)
+## Setting Minecraft Game Rules (In Minecraft Server Console)
 
 ```
 gamerule doFireTick false
