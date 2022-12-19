@@ -129,12 +129,19 @@ text-filtering-config=
 use-native-transport=true
 view-distance=10
 white-list=false
-doFireTick=false
-playersSleepingPercentage=0" > server.properties
 ```
 
 # Running the Server
 
 ```shell
 ./run.sh
+```
+
+# Setting Minecraft Game Rules (In Minecraft Server Console)
+
+```
+doFireTick false
+```
+```
+playersSleepingPercentage 0
 ```
