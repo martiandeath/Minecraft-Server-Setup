@@ -30,9 +30,7 @@ chmod 777 Minecraft-Server-Setup.sh
 ```
 
 *****
-*****
-Everything Below is Only for When Installing Manually Rather Than Using the Script
-*****
+## Everything Below is Only for When Installing Manually Rather Than Using the Script
 *****
 
 
