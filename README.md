@@ -5,9 +5,6 @@
 https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud
 
 
-********************
-
-
 # SSH
 ssh opc@<public ip> -i ~/.ssh/<key file>
 
@@ -16,17 +13,11 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 public ip:25565
 
 
-********************
-
-
 # Fetching and running the server setup file
 
 wget https://github.com/martiandeath/Minecraft-Server-Setup
 
 ./Minecraft_server_setup.sh
-
-
-********************
 
 
 # Firewall Settings
@@ -38,17 +29,11 @@ sudo firewall-cmd --permanent --zone=public --add-port=25565/udp
 sudo firewall-cmd --reload
 
 
-********************
-
-
 # Update the System
 
 sudo yum update && sudo yum upgrade
 
 sudo yum install jdk-19
-
-
-********************
 
 
 # Install Forge Server
@@ -60,9 +45,6 @@ java -jar forge-1.19.3-44.0.30-installer.jar --install
 rm forge-1.19.3-44.0.30-installer.jar forge-1.19.3-44.0.30-installer.jar.log
 
 
-********************
-
-
 # Initial Setup
 
 ./run.sh
@@ -72,9 +54,6 @@ echo "eula=true" > eula.txt
 ./run.sh
 
 echo " -Xmx 20G" > user_jvm_args.txt
-
-
-********************
 
 
 # Set Server Properties
@@ -138,7 +117,6 @@ doFireTick=false
 playersSleepingPercentage=0" > server.properties
 
 
-********************
-
+# Running the Server
 
 ./run.sh
