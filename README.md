@@ -8,7 +8,7 @@ https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful
 # SSH
 
 ```shell
-ssh opc@public ip -i ~/.ssh/key file
+ssh opc@<public ip> -i ~/.ssh/<key file>
 ```
 
 # Server Address
