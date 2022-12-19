@@ -1,6 +1,4 @@
-#################################################################
-### HOW TO SETUP A MINECRAFT SERVER IN AN ORACLE CLOUD SERVER ###
-#################################################################
+# HOW TO SETUP A MINECRAFT SERVER IN AN ORACLE CLOUD SERVER
 
 
 # Tutorial Link
