@@ -28,6 +28,9 @@ chmod 777 Minecraft-Server-Setup.sh
 ```shell
 ./Minecraft-Server-Setup.sh
 ```
+*****
+# Everything Below is Only for When Installing Manually Rather Than Using the Script
+*****
 
 # Firewall Settings
 
