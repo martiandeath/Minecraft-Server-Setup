@@ -17,6 +17,12 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 <public ip>:25565
 ```
 
+## Running the Server (After First-Time Setup
+
+```
+./run.sh
+```
+
 ## Fetching and running the server setup file
 
 ```shell
