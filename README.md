@@ -28,6 +28,15 @@ chmod 777 Minecraft-Server-Setup.sh
 ```shell
 ./Minecraft-Server-Setup.sh
 ```
+## Setting Minecraft Game Rules (In Minecraft Server Console)
+
+```
+gamerule doFireTick false
+```
+```
+gamerule playersSleepingPercentage 0
+```
+
 
 *****
 # Everything Below is Only for When Installing Manually Rather Than Using the Script
