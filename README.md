@@ -68,7 +68,7 @@ rm forge-1.19.3-44.0.30-installer.jar forge-1.19.3-44.0.30-installer.jar.log
 echo "eula=true" > eula.txt
 ```
 ```shell
-echo " -Xmx 20G" > user_jvm_args.txt
+echo " -Xmx20G" > user_jvm_args.txt
 ```
 
 # Set Server Properties
