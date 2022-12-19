@@ -1,11 +1,10 @@
-# HOW TO SETUP A MINECRAFT SERVER IN AN ORACLE CLOUD SERVER
+# How to Setup a Minecraft Forge Server in an Oracle Cloud Server
 
 
 # Tutorial Link
 https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud
 
 
-********************
 ********************
 
 
@@ -18,7 +17,6 @@ public ip:25565
 
 
 ********************
-********************
 
 
 # Fetching and running the server setup file
@@ -28,7 +26,6 @@ wget https://github.com/martiandeath/Minecraft-Server-Setup
 ./Minecraft_server_setup.sh
 
 
-********************
 ********************
 
 
@@ -42,7 +39,6 @@ sudo firewall-cmd --reload
 
 
 ********************
-********************
 
 
 # Update the System
@@ -52,7 +48,6 @@ sudo yum update && sudo yum upgrade
 sudo yum install jdk-19
 
 
-********************
 ********************
 
 
@@ -65,7 +60,6 @@ java -jar forge-1.19.3-44.0.30-installer.jar --install
 rm forge-1.19.3-44.0.30-installer.jar forge-1.19.3-44.0.30-installer.jar.log
 
 
-********************
 ********************
 
 
@@ -80,7 +74,6 @@ echo "eula=true" > eula.txt
 echo " -Xmx 20G" > user_jvm_args.txt
 
 
-********************
 ********************
 
 
@@ -145,7 +138,6 @@ doFireTick=false
 playersSleepingPercentage=0" > server.properties
 
 
-********************
 ********************
 
 
