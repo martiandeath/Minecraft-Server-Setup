@@ -140,8 +140,8 @@ white-list=false
 # Setting Minecraft Game Rules (In Minecraft Server Console)
 
 ```
-doFireTick false
+gamerule doFireTick false
 ```
 ```
-playersSleepingPercentage 0
+gamerule playersSleepingPercentage 0
 ```
