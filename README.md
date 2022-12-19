@@ -21,6 +21,8 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 
 ```shell
 wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
+```
+```shell
 ./Minecraft-Server-Setup.sh
 ```
 
