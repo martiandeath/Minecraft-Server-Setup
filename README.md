@@ -17,7 +17,7 @@ public ip:25565
 
 wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/1.19.3-0.1/Minecraft%20Server%20Setup
 
-./Minecraft_server_setup.sh
+./Minecraft-server-setup.sh
 
 
 # Firewall Settings
