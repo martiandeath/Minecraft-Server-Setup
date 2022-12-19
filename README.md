@@ -19,7 +19,7 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 
 ## Running the Server (After First-Time Setup)
 
-```
+```shell
 ./run.sh
 ```
 
