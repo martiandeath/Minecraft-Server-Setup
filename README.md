@@ -23,6 +23,9 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
 ```
 ```shell
+chmod 777 Minecraft-Server-Setup.sh
+```
+```shell
 ./Minecraft-Server-Setup.sh
 ```
 
