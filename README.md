@@ -32,7 +32,7 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 # First-Time Setup Instructions
 ***
 
-## Fetching and running the server setup file
+## Fetching and Running the Server Setup Script
 
 ```shell
 wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
