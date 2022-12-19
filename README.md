@@ -14,7 +14,7 @@ ssh opc@public ip -i ~/.ssh/key file
 # Server Address
 
 ```
-public ip:25565
+<public ip>:25565
 ```
 
 # Fetching and running the server setup file
