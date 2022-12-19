@@ -63,7 +63,5 @@ sync-chunk-writes=true
 text-filtering-config=
 use-native-transport=true
 view-distance=10
-white-list=false
-doFireTick=false
-playersSleepingPercentage=0" > server.properties
+white-list=false" > server.properties
 ./run.sh
