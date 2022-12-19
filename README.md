@@ -22,7 +22,7 @@ wget https://github.com/martiandeath/Minecraft-Server-Setup
 
 # Firewall Settings
 
-'sudo firewall-cmd --permanent --zone=public --add-port=25565/tcp'
+sudo firewall-cmd --permanent --zone=public --add-port=25565/tcp
 
 sudo firewall-cmd --permanent --zone=public --add-port=25565/udp
 
