@@ -15,7 +15,7 @@ public ip:25565
 
 # Fetching and running the server setup file
 
-wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/1.19.3-0.1/Minecraft%20Server%20Setup
+wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
 
 ./Minecraft-Server-Setup.sh
 
