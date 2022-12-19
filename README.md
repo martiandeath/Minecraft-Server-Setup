@@ -7,9 +7,9 @@ https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful
 
 # SSH
 
-'''shell
+```shell
 ssh opc@public ip -i ~/.ssh/key file
-'''
+```
 
 # Server Address
 public ip:25565
@@ -17,46 +17,46 @@ public ip:25565
 
 # Fetching and running the server setup file
 
-'''shell
+```shell
 wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
 ./Minecraft-Server-Setup.sh
-'''
+```
 
 # Firewall Settings
 
-'''shell
+```shell
 sudo firewall-cmd --permanent --zone=public --add-port=25565/tcp
 sudo firewall-cmd --permanent --zone=public --add-port=25565/udp
 sudo firewall-cmd --reload
-'''
+```
 
 # Update the System
 
-'''shell
+```shell
 sudo yum update && sudo yum upgrade
 sudo yum install jdk-19
-'''
+```
 
 # Install Forge Server
 
-'''shell
+```shell
 wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.3-44.0.30/forge-1.19.3-44.0.30-installer.jar
 java -jar forge-1.19.3-44.0.30-installer.jar --install
 rm forge-1.19.3-44.0.30-installer.jar forge-1.19.3-44.0.30-installer.jar.log
-'''
+```
 
 # Initial Setup
 
-'''shell
+```shell
 ./run.sh
 echo "eula=true" > eula.txt
 ./run.sh
 echo " -Xmx 20G" > user_jvm_args.txt
-'''
+```
 
 # Set Server Properties
 
-'''shell
+```shell
 echo "allow-flight=false
 allow-nether=true
 broadcast-console-to-ops=true
@@ -114,10 +114,10 @@ view-distance=10
 white-list=false
 doFireTick=false
 playersSleepingPercentage=0" > server.properties
-'''
+```
 
 # Running the Server
 
-'''shell
+```shell
 ./run.sh
-'''
+```
