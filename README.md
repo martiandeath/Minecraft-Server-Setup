@@ -28,22 +28,32 @@ wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/
 
 ```shell
 sudo firewall-cmd --permanent --zone=public --add-port=25565/tcp
+```
+```shell
 sudo firewall-cmd --permanent --zone=public --add-port=25565/udp
+```
+```shell
 sudo firewall-cmd --reload
 ```
 
 # Update the System
 
 ```shell
-sudo yum update && sudo yum upgrade
-sudo yum install jdk-19
+sudo yum -y update && sudo yum upgrade
+```
+```shell
+sudo yum -y install jdk-19
 ```
 
 # Install Forge Server
 
 ```shell
 wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.3-44.0.30/forge-1.19.3-44.0.30-installer.jar
+```
+```shell
 java -jar forge-1.19.3-44.0.30-installer.jar --install
+```
+```shell
 rm forge-1.19.3-44.0.30-installer.jar forge-1.19.3-44.0.30-installer.jar.log
 ```
 
@@ -51,8 +61,14 @@ rm forge-1.19.3-44.0.30-installer.jar forge-1.19.3-44.0.30-installer.jar.log
 
 ```shell
 ./run.sh
+```
+```shell
 echo "eula=true" > eula.txt
+```
+```shell
 ./run.sh
+```
+```shell
 echo " -Xmx 20G" > user_jvm_args.txt
 ```
 
