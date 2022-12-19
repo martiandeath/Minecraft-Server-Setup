@@ -23,6 +23,10 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 ./run.sh
 ```
 
+*
+# First-Time Setup Instructions
+*
+
 ## Fetching and running the server setup file
 
 ```shell
