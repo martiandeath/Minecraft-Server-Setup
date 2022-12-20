@@ -3,7 +3,6 @@
 
 ***
 # Info
-***
 
 
 ## Tutorial Link
@@ -30,7 +29,6 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 
 ***
 # First-Time Setup Instructions
-***
 
 ## Fetching and Running the Server Setup Script
 
