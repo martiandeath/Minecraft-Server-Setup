@@ -1,4 +1,4 @@
-# How to Setup a Minecraft Forge Server in an Oracle Cloud Server
+# How to use the Script to Setup a Minecraft Forge Server in an Oracle Cloud Server
 
 
 ***
