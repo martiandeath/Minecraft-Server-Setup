@@ -3,7 +3,8 @@
 ## Info
 
 ###### Tutorial Link
-Oracle - [How To Set Up and Run a (Really Powerful) Free Minecraft Server in the Cloud](https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud)
+
+Todd Sharp, Oracle Developers Blog - [How To Set Up and Run a (Really Powerful) Free Minecraft Server in the Cloud](https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud)
 
 ###### SSH
 
@@ -25,14 +26,20 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 
 ## First-Time Setup Instructions
 
-###### Fetching and Running the Server Setup Script
+###### Fetching the Server Script
 
 ```shell
 wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
 ```
+
+###### Setting the Script's File Permissions
+
 ```shell
 chmod 777 Minecraft-Server-Setup.sh
 ```
+
+###### Running the Script
+
 ```shell
 ./Minecraft-Server-Setup.sh
 ```
