@@ -1,13 +1,9 @@
 # How to use the Script to Setup a Minecraft Forge Server in an Oracle Cloud Server
 
-
-***
 ## Info
-
 
 ###### Tutorial Link
 https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud
-
 
 ###### SSH
 
@@ -27,7 +23,6 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 ./run.sh
 ```
 
-***
 ## First-Time Setup Instructions
 
 ###### Fetching and Running the Server Setup Script
