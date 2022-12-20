@@ -5,23 +5,23 @@
 # Info
 
 
-## Tutorial Link
+###### Tutorial Link
 https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud
 
 
-## SSH
+###### SSH
 
 ```shell
 ssh opc@<public ip> -i ~/.ssh/<key file>
 ```
 
-## Server Address
+###### Server Address
 
 ```
 <public ip>:25565
 ```
 
-## Running the Server (After First-Time Setup)
+###### Running the Server (After First-Time Setup)
 
 ```shell
 ./run.sh
@@ -30,7 +30,7 @@ ssh opc@<public ip> -i ~/.ssh/<key file>
 ***
 # First-Time Setup Instructions
 
-## Fetching and Running the Server Setup Script
+###### Fetching and Running the Server Setup Script
 
 ```shell
 wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
@@ -42,7 +42,7 @@ chmod 777 Minecraft-Server-Setup.sh
 ./Minecraft-Server-Setup.sh
 ```
 
-## Setting Minecraft Game Rules (In Minecraft Server Console)
+###### Setting Minecraft Game Rules (In Minecraft Server Console)
 
 ```
 gamerule doFireTick false
