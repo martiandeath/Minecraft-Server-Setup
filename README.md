@@ -12,13 +12,13 @@ Todd Sharp, Oracle Developers Blog - [How To Set Up and Run a (Really Powerful) 
 ssh opc@<public ip> -i ~/.ssh/<key file>
 ```
 
-###### Server Address
+##### Server Address
 
 ```shell
 <public ip>:25565
 ```
 
-###### Running the Server After First-Time Setup
+#### Running the Server After First-Time Setup
 
 ```shell
 ./run.sh
