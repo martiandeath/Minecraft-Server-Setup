@@ -9,7 +9,7 @@ https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful
 ssh opc@<public ip> -i ~/.ssh/<key file>
 ```
 ###### Server Address
-```
+```shell
 <public ip>:25565
 ```
 ###### Running the Server After First-Time Setup
