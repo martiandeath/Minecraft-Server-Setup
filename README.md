@@ -4,21 +4,15 @@
 
 ###### Tutorial Link
 https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud
-
 ###### SSH
-
 ```shell
 ssh opc@<public ip> -i ~/.ssh/<key file>
 ```
-
 ###### Server Address
-
 ```
 <public ip>:25565
 ```
-
 ###### Running the Server (After First-Time Setup)
-
 ```shell
 ./run.sh
 ```
