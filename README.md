@@ -9,7 +9,7 @@ Todd Sharp, Oracle Developers Blog - [How To Set Up and Run a (Really Powerful) 
 ###### SSH
 
 ```shell
-ssh opc@<public ip> -i ~/.ssh/<key file>
+ssh opc@<public ip of oracle server> -i <path to key file>
 ```
 
 ###### Server Address
