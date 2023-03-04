@@ -64,4 +64,4 @@ text-filtering-config=
 use-native-transport=true
 view-distance=10
 white-list=false" > server.properties
-./run.sh
+nohup ./run.sh
