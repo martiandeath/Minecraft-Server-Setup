@@ -21,7 +21,7 @@ ssh opc@<public ip of oracle server> -i <path to key file>
 ###### Running the Server After First-Time Setup
 
 ```shell
-./run.sh
+nohup ./run.sh
 ```
 
 ## First-Time Setup Instructions
@@ -35,7 +35,7 @@ wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/
 ###### Setting the Script's File Permissions
 
 ```shell
-chmod 777 Minecraft-Server-Setup.sh
+chmod +x Minecraft-Server-Setup.sh
 ```
 
 ###### Running the Script
