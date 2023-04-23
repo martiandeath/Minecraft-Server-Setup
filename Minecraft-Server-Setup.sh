@@ -3,9 +3,9 @@ sudo firewall-cmd --permanent --zone=public --add-port=25565/udp
 sudo firewall-cmd --reload
 sudo yum -y update && sudo yum upgrade
 sudo yum -y install jdk-20
-wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.0.43/forge-1.19.4-45.0.43-installer.jar
+wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.0.46/forge-1.19.4-45.0.46-installer.jar
 java -jar forge-1.19.4-45.0.43-installer.jar --install
-rm forge-1.19.4-45.0.43-installer.jar forge-1.19.4-45.0.43-installer.jar.log
+rm forge-1.19.4-45.0.46-installer.jar forge-1.19.4-45.0.46-installer.jar.log
 ./run.sh
 echo "eula=true" > eula.txt
 echo " -Xmx20G" > user_jvm_args.txt
