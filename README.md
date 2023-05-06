@@ -13,6 +13,7 @@ Todd Sharp, Oracle Developers Blog - [How To Set Up and Run a (Really Powerful) 
 ###### Image and shape:
 
 Choose "Oracle Linux 9" as the image
+
 Choose "Ampere" for the shape, and set it to have 4 OCPUs and 24GB memory
 
 ###### Networking:
@@ -28,8 +29,11 @@ Click "Create"
 ###### Subnet
 
 Click on the subnet in the page that has just opened
+
 Click on the Default Security List
+
 Click "Add Ingress Rules"
+
 Add two rules, both with source "0.0.0.0/0" and destination port range "25565", one using protocol TCP and the other UDP (add multiple by clicking "Another Ingress Rule")
 
 Click "Add Ingress Rules"
@@ -64,7 +68,7 @@ chmod +x Minecraft-Server-Setup.sh
 ./Minecraft-Server-Setup.sh
 ```
 
-##### Setting Minecraft Game Rules (In Minecraft Server Console)
+##### Setting Minecraft Game Rules (In Minecraft Server Console) (Optional)
 
 ```
 gamerule doFireTick false
@@ -72,6 +76,16 @@ gamerule doFireTick false
 ```
 gamerule playersSleepingPercentage 0
 ```
+
+After setting up the game rules:
+
+Stop the server by typing "stop"
+
+Exit the SSH connection by typing "exit"
+
+Go to your Oracle Cloud interface and reboot your instance, this will apply any updates completed during running the script
+
+Reconnect to your instance and start the server using the command below, once this command has been run, you can disconnect from the SSH connection and close the terminal window
 
 ## Info
 
