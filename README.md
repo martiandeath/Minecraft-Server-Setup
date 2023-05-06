@@ -77,7 +77,7 @@ gamerule doFireTick false
 gamerule playersSleepingPercentage 0
 ```
 
-After setting up the game rules:
+##### After setting up the game rules:
 
 Stop the server by typing "stop"
 
