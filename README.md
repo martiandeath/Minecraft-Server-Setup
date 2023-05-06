@@ -16,7 +16,7 @@ Choose "Oracle Linux 9" as the image
 
 Choose "Ampere" for the shape
 
-Select VM.Standard.A1.Flex
+Select "VM.Standard.A1.Flex"
 
 Set it to have 4 OCPUs and 24GB memory
 
