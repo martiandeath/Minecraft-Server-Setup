@@ -44,19 +44,7 @@ If on Windows, you will have to install SSH yourself
 ssh opc@<public ip of oracle instance> -i <path to key file>
 ```
 
-##### Server Address
-
-```shell
-<public ip>:25565
-```
-
-##### Running the Server After First-Time Setup
-
-```shell
-nohup ./run.sh &
-```
-
-## First-Time Setup Instructions
+## After Connecting to your instance via SSH
 
 ##### Fetching the Server Script
 
@@ -83,4 +71,18 @@ gamerule doFireTick false
 ```
 ```
 gamerule playersSleepingPercentage 0
+```
+
+## Info
+
+##### Server Address
+
+```shell
+<public ip>:25565
+```
+
+##### Running the Server After First-Time Setup
+
+```shell
+nohup ./run.sh &
 ```
