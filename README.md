@@ -24,7 +24,9 @@ Select "Create new virtual cloud network" and leave everything as default
 Download the private/public SSH keys for your instance
 
 
+
 Click "Create"
+
 
 
 ###### Subnet
@@ -33,10 +35,13 @@ Click on the subnet in the page that has just opened
 Click on the Default Security List
 Click "Add Ingress Rules"
 Add two rules, both with source "0.0.0.0/0" and destination port range "25565", one using protocol TCP and the other UDP (add multiple by clicking "Another Ingress Rule")
+
 Click "Add Ingress Rules"
 
 
+
 That's the instance setup done!
+
 
 
 ##### SSH
