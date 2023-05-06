@@ -21,7 +21,7 @@ ssh opc@<public ip of oracle server> -i <path to key file>
 ###### Running the Server After First-Time Setup
 
 ```shell
-nohup ./run.sh
+nohup ./run.sh &
 ```
 
 ## First-Time Setup Instructions
