@@ -8,7 +8,7 @@ Todd Sharp, Oracle Developers Blog - [How To Set Up and Run a (Really Powerful) 
 
 ## Instance Setup
 
-##### Create an Oracle Cloud instance with the following configuration:
+#### Create an Oracle Cloud instance with the following configuration:
 
 ###### Image and shape:
 
