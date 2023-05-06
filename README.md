@@ -1,14 +1,14 @@
 # How to use the Script to Setup a Minecraft Forge Server in an Oracle Cloud Server
 
-## Info
+## Create an Account
 
-##### Tutorial Link
+##### Follow the account creation section of this tutorial and come back here to complete the setup
 
 Todd Sharp, Oracle Developers Blog - [How To Set Up and Run a (Really Powerful) Free Minecraft Server in the Cloud](https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud)
 
 ## Instance Setup
 
-Create an Oracle Cloud instance with the following configuration:
+##### Create an Oracle Cloud instance with the following configuration:
 
 ###### Image and shape:
 
@@ -23,11 +23,7 @@ Select "Create new virtual cloud network" and leave everything as default
 
 Download the private/public SSH keys for your instance
 
-
-
 Click "Create"
-
-
 
 ###### Subnet
 
@@ -38,11 +34,7 @@ Add two rules, both with source "0.0.0.0/0" and destination port range "25565", 
 
 Click "Add Ingress Rules"
 
-
-
 That's the instance setup done!
-
-
 
 ##### SSH
 
