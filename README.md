@@ -48,6 +48,8 @@ That's the instance setup done!
 
 If on Windows, you will have to install SSH yourself
 
+##### SSH Connection Command
+
 ```shell
 ssh opc@<public ip of oracle instance> -i <path to and name of private key file>
 ```
