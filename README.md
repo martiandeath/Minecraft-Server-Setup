@@ -44,12 +44,12 @@ Click "Add Ingress Rules"
 
 That's the instance setup done!
 
-##### SSH
+## SSH
 
 If on Windows, you will have to install SSH yourself
 
 ```shell
-ssh opc@<public ip of oracle instance> -i <path to key file>
+ssh opc@<public ip of oracle instance> -i <path to and name of private key file>
 ```
 
 ## After Connecting to your instance via SSH
