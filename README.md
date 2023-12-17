@@ -10,7 +10,7 @@ Todd Sharp, Oracle Developers Blog - [How To Set Up and Run a (Really Powerful) 
 
 #### Create an Oracle Cloud instance with the following configuration:
 
-###### Image and shape:
+###### Image and Shape:
 
 Choose "Oracle Linux 9" as the image
 
@@ -54,7 +54,7 @@ If on Windows, you will have to install SSH yourself
 ssh opc@<public ip of oracle instance> -i <path to and name of private key file>
 ```
 
-## After Connecting to your instance via SSH
+## After Connecting To Your Instance Via SSH
 
 ##### Fetching the Server Script
 ###### Forge
@@ -93,7 +93,7 @@ gamerule doFireTick false
 gamerule playersSleepingPercentage 0
 ```
 
-##### After setting up the game rules:
+##### After Setting Up The Game Rules:
 
 Stop the server by typing "stop"
 
