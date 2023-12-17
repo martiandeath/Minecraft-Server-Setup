@@ -1,4 +1,4 @@
-# How to use the Script to Setup a Minecraft Forge Server in an Oracle Cloud Instance
+# How to use the Script to Setup a Minecraft Server in an Oracle Cloud Instance
 
 ## Create an Account
 
@@ -57,9 +57,14 @@ ssh opc@<public ip of oracle instance> -i <path to and name of private key file>
 ## After Connecting to your instance via SSH
 
 ##### Fetching the Server Script
-
+###### Forge
 ```shell
-wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
+wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Forge-Minecraft-Server-Setup.sh
+```
+OR
+###### Vanilla
+```shell
+wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Vanilla-Minecraft-Server-Setup.sh
 ```
 
 ##### Setting the Script's File Permissions
@@ -69,9 +74,14 @@ chmod +x Minecraft-Server-Setup.sh
 ```
 
 ##### Running the Script
-
+###### Forge
 ```shell
-./Minecraft-Server-Setup.sh
+./Forge-Minecraft-Server-Setup.sh
+```
+OR
+###### Vanilla
+```shell
+./Vanilla-Minecraft-Server-Setup.sh
 ```
 
 ##### Setting Minecraft Game Rules (In Minecraft Server Console) (Optional)
