@@ -54,7 +54,7 @@ If on Windows, you will have to install SSH yourself
 ssh opc@<public ip of oracle instance> -i <path to and name of private key file>
 ```
 
-## After Connecting To Your Instance Via SSH
+## After Connecting to your Instance via SSH
 
 ##### Fetching the Server Script
 ###### Forge
@@ -93,7 +93,7 @@ gamerule doFireTick false
 gamerule playersSleepingPercentage 0
 ```
 
-##### After Setting Up The Game Rules:
+##### After Setting up the Game Rules:
 
 Stop the server by typing "stop"
 
