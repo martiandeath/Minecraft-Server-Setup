@@ -3,7 +3,7 @@ sudo firewall-cmd --permanent --zone=public --add-port=25565/udp
 sudo firewall-cmd --reload
 sudo yum -y update && sudo yum upgrade
 sudo yum -y install jdk-21
-wget https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
+wget https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar
 java -jar server.jar --install
 rm server.jar server.jar.log
 ./run.sh
