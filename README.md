@@ -69,7 +69,7 @@ chmod +x Minecraft-Server-Setup.sh
 
 ##### Running the Script
 ```shell
-./Vanilla-Minecraft-Server-Setup.sh
+./Minecraft-Server-Setup.sh
 ```
 
 ##### Setting Minecraft Game Rules (In Minecraft Server Console) (Optional)
