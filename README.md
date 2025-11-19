@@ -12,7 +12,7 @@ Todd Sharp, Oracle Developers Blog - [How To Set Up and Run a (Really Powerful) 
 
 ###### Image and Shape:
 
-Choose "Oracle Linux 9" as the image
+Choose the latest version of Oracle Linux as the image
 
 Choose "Ampere" for the shape
 
@@ -57,12 +57,6 @@ ssh opc@<public ip of oracle instance> -i <path to and name of private key file>
 ## After Connecting to your Instance via SSH
 
 ##### Fetching the Server Script
-###### Forge
-```shell
-wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Forge-Minecraft-Server-Setup.sh
-```
-OR
-###### Vanilla
 ```shell
 wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Vanilla-Minecraft-Server-Setup.sh
 ```
@@ -74,12 +68,6 @@ chmod +x Minecraft-Server-Setup.sh
 ```
 
 ##### Running the Script
-###### Forge
-```shell
-./Forge-Minecraft-Server-Setup.sh
-```
-OR
-###### Vanilla
 ```shell
 ./Vanilla-Minecraft-Server-Setup.sh
 ```
