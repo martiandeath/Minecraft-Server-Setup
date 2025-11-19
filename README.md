@@ -58,7 +58,7 @@ ssh opc@<public ip of oracle instance> -i <path to and name of private key file>
 
 ##### Fetching the Server Script
 ```shell
-wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Vanilla-Minecraft-Server-Setup.sh
+wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
 ```
 
 ##### Setting the Script's File Permissions
