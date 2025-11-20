@@ -1,11 +1,5 @@
 # How to use the Script to Setup a Minecraft Server in an Oracle Cloud Instance
 
-## Create an Account
-
-##### Follow the account creation section of this tutorial and come back here to complete the setup
-
-Todd Sharp, Oracle Developers Blog - [How To Set Up and Run a (Really Powerful) Free Minecraft Server in the Cloud](https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud)
-
 ## Instance Setup
 
 #### Create an Oracle Cloud instance with the following configuration:
