@@ -32,10 +32,6 @@ Click "Create"
 
 ###### Subnet
 
-Click on the subnet in the page that has just opened
-
-Click on the Default Security List
-
 Click "Add Ingress Rules"
 
 Add two rules, both with source "0.0.0.0/0" and destination port range "25565", one using protocol TCP and the other UDP (add multiple by clicking "Another Ingress Rule")
@@ -59,6 +55,11 @@ ssh opc@<public ip of oracle instance> -i <path to and name of private key file>
 ##### Fetching the Server Script
 ```shell
 wget https://raw.githubusercontent.com/martiandeath/Minecraft-Server-Setup/main/Minecraft-Server-Setup.sh
+```
+
+##### Fetching the Minecraft Server File
+```shell
+wget <Download link from Minecraft/Forge etc>
 ```
 
 ##### Setting the Script's File Permissions
